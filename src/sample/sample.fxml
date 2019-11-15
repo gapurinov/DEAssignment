@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextField layoutX="82.0" layoutY="28.0" fx:id="x0Prompt" />
+        <TextField fx:id="y0Prompt" layoutX="333.0" layoutY="28.0" />
+        <TextField fx:id="XPrompt" layoutX="571.0" layoutY="30.0" />
+        <TextField fx:id="NPrompt" layoutX="82.0" layoutY="80.0" />
+        <TextField fx:id="stepStartPrompt" layoutX="333.0" layoutY="80.0" />
+        <TextField fx:id="stepFinishPrompt" layoutX="571.0" layoutY="78.0" />
+        <Label layoutX="40.0" layoutY="28.0" prefHeight="31.0" prefWidth="42.0" text="x0:" />
+        <Label layoutX="279.0" layoutY="28.0" prefHeight="31.0" prefWidth="42.0" text="y0:" />
+        <Label layoutX="529.0" layoutY="28.0" prefHeight="31.0" prefWidth="42.0" text="X:" />
+        <Label layoutX="40.0" layoutY="78.0" prefHeight="31.0" prefWidth="42.0" text="N:" />
+        <Label layoutX="273.0" layoutY="78.0" prefHeight="31.0" prefWidth="42.0" text="Start:" />
+        <Label layoutX="522.0" layoutY="78.0" prefHeight="31.0" prefWidth="42.0" text="Finish:" />
+        <Button fx:id="draw" layoutX="377.0" layoutY="154.0" mnemonicParsing="false" onAction="#plot" prefHeight="31.0" prefWidth="79.0" text="Plot" />
+    </children>
+</AnchorPane>
